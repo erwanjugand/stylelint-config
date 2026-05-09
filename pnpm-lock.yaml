@@ -9,22 +9,19 @@ importers:
   .:
     dependencies:
       postcss-html:
-        specifier: 1.8.1
+        specifier: ^1.8.1
         version: 1.8.1
-      stylelint:
-        specifier: 17.11.0
-        version: 17.11.0(typescript@6.0.3)
       stylelint-config-recess-order:
-        specifier: 7.7.0
+        specifier: ^7.7.0
         version: 7.7.0(stylelint-order@8.1.1(stylelint@17.11.0(typescript@6.0.3)))(stylelint@17.11.0(typescript@6.0.3))
       stylelint-config-standard-scss:
-        specifier: 17.0.0
+        specifier: ^17.0.0
         version: 17.0.0(postcss@8.5.14)(stylelint@17.11.0(typescript@6.0.3))
       stylelint-order:
-        specifier: 8.1.1
+        specifier: ^8.1.1
         version: 8.1.1(stylelint@17.11.0(typescript@6.0.3))
       stylelint-plugin-use-baseline:
-        specifier: 1.4.1
+        specifier: ^1.4.1
         version: 1.4.1(stylelint@17.11.0(typescript@6.0.3))
     devDependencies:
       '@erwanjugand/eslint-config':
@@ -45,6 +42,9 @@ importers:
       prettier:
         specifier: 3.8.3
         version: 3.8.3
+      stylelint:
+        specifier: 17.11.0
+        version: 17.11.0(typescript@6.0.3)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
