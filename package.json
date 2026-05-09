@@ -1,0 +1,55 @@
+{
+  "name": "@erwanjugand/stylelint-config",
+  "packageManager": "pnpm@11.0.9",
+  "version": "1.0.0",
+  "author": "Erwan Jugand <erwan.jugand@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwanjugand/stylelint-config.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./vue": {
+      "types": "./dist/configs/vue.d.ts",
+      "default": "./dist/configs/vue.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm run build",
+    "check:prettier": "prettier --check .",
+    "check:lint": "eslint",
+    "check:ts": "tsc --noEmit",
+    "check:all": "pnpm check:prettier && pnpm check:lint && pnpm check:ts",
+    "fix:prettier": "prettier --log-level warn --write .",
+    "fix:lint": "pnpm check:lint --fix",
+    "fix:all": "pnpm fix:prettier && pnpm fix:lint"
+  },
+  "devDependencies": {
+    "@erwanjugand/eslint-config": "2.3.0",
+    "@erwanjugand/prettier-config": "1.0.0",
+    "eslint": "10.3.0",
+    "eslint-config-prettier": "10.1.8",
+    "jiti": "2.7.0",
+    "prettier": "3.8.3",
+    "typescript": "6.0.3"
+  },
+  "dependencies": {
+    "postcss-html": "1.8.1",
+    "stylelint": "17.11.0",
+    "stylelint-config-recess-order": "7.7.0",
+    "stylelint-config-standard-scss": "17.0.0",
+    "stylelint-order": "8.1.1",
+    "stylelint-plugin-use-baseline": "1.4.1"
+  }
+}
