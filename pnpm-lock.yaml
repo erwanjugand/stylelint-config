@@ -28,8 +28,8 @@ importers:
         specifier: 2.3.0
         version: 2.3.0(@typescript-eslint/parser@8.59.2(eslint@10.3.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.3.0(jiti@2.7.0))(typescript@6.0.3)(vue-eslint-parser@10.4.0(eslint@10.3.0(jiti@2.7.0)))
       '@erwanjugand/prettier-config':
-        specifier: 1.0.0
-        version: 1.0.0(prettier@3.8.3)
+        specifier: 1.0.1
+        version: 1.0.1(prettier@3.8.3)
       eslint:
         specifier: 10.3.0
         version: 10.3.0(jiti@2.7.0)
@@ -143,8 +143,8 @@ packages:
     peerDependencies:
       eslint: ^10.0.0
 
-  '@erwanjugand/prettier-config@1.0.0':
-    resolution: {integrity: sha512-VwVnYI69GNwx8nlpjxBqvVY/TgTSrmP8TsACO3hrfebAXF++LMjras+UC6anbnhpJOSYntkEPsIc1q9EhBxkHA==}
+  '@erwanjugand/prettier-config@1.0.1':
+    resolution: {integrity: sha512-DsnapfXIyig6ZflotcyhQ/bD4vd98fgYdUiXzSKsOcrOoIJ/aPBUjE84y0nGKAlK8kGxVbaEs1mBAJU61YnT5w==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -1229,7 +1229,7 @@ snapshots:
       - typescript
       - vue-eslint-parser
 
-  '@erwanjugand/prettier-config@1.0.0(prettier@3.8.3)':
+  '@erwanjugand/prettier-config@1.0.1(prettier@3.8.3)':
     dependencies:
       '@trivago/prettier-plugin-sort-imports': 6.0.2(prettier@3.8.3)
       prettier: 3.8.3

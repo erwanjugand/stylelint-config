@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@erwanjugand/eslint-config": "2.3.0",
-    "@erwanjugand/prettier-config": "1.0.0",
+    "@erwanjugand/prettier-config": "1.0.1",
     "eslint": "10.3.0",
     "eslint-config-prettier": "10.1.8",
     "jiti": "2.7.0",
