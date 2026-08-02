@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       postcss-html:
-        specifier: ^1.8.1
+        specifier: ^1.8.1 || ^2.0.0
         version: 1.8.1
       stylelint-config-recess-order:
         specifier: ^7.7.0
