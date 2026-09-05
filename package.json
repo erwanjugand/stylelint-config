@@ -1,6 +1,6 @@
 {
   "name": "@erwanjugand/stylelint-config",
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": "^22.12 || >=24"
   },
@@ -39,13 +39,13 @@
     "fix:all": "pnpm fix:prettier && pnpm fix:lint"
   },
   "devDependencies": {
-    "@erwanjugand/eslint-config": "2.4.0",
-    "@erwanjugand/prettier-config": "1.0.1",
-    "eslint": "10.6.0",
+    "@erwanjugand/eslint-config": "2.6.0",
+    "@erwanjugand/prettier-config": "1.1.1",
+    "eslint": "10.9.1",
     "eslint-config-prettier": "10.1.8",
     "jiti": "2.7.0",
-    "prettier": "3.9.4",
-    "stylelint": "17.14.0",
+    "prettier": "3.9.6",
+    "stylelint": "17.14.1",
     "typescript": "6.0.3"
   },
   "dependencies": {
