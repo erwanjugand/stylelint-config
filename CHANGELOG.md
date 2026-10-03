@@ -1,3 +1,24 @@
+## [2.0.1](https://github.com/erwanjugand/stylelint-config/compare/v2.0.0...v2.0.1) (2026-10-03)
+
+### Bug Fixes
+
+* **release:** move changelog order ([a52a46d](https://github.com/erwanjugand/stylelint-config/commit/a52a46dbfb69b00fd9ea96b170e1111126643985))
+
+### Chore
+
+* **ci:** migrate pnpm/action-setup to pnpm/setup ([#15](https://github.com/erwanjugand/stylelint-config/issues/15)) ([f6be23f](https://github.com/erwanjugand/stylelint-config/commit/f6be23f99bc3a8101382db65c0e995fd8a7212f7))
+* **deps:** lock file maintenance ([#13](https://github.com/erwanjugand/stylelint-config/issues/13)) ([6b72fae](https://github.com/erwanjugand/stylelint-config/commit/6b72faeedfc649e7327ebffc62e676249db81442))
+* **deps:** lock file maintenance ([#18](https://github.com/erwanjugand/stylelint-config/issues/18)) ([b4e32b9](https://github.com/erwanjugand/stylelint-config/commit/b4e32b918efc610e10f8943e4dc0fd66a15bae08))
+* **deps:** pin version ([#11](https://github.com/erwanjugand/stylelint-config/issues/11)) ([04526ae](https://github.com/erwanjugand/stylelint-config/commit/04526ae23536e2132a80aacbfbc62c7ec6babb06))
+* **deps:** update all non-major dependencies ([#12](https://github.com/erwanjugand/stylelint-config/issues/12)) ([bb2f6d3](https://github.com/erwanjugand/stylelint-config/commit/bb2f6d346814111e6f749e56685efd5e8f53786e))
+* **deps:** update all non-major dependencies ([#17](https://github.com/erwanjugand/stylelint-config/issues/17)) ([e1ea00e](https://github.com/erwanjugand/stylelint-config/commit/e1ea00efb8210755730177b0116da8bd0e5a8bd9))
+* **deps:** update pnpm to v12 ([#14](https://github.com/erwanjugand/stylelint-config/issues/14)) ([2a8c0dc](https://github.com/erwanjugand/stylelint-config/commit/2a8c0dcac035d0513d11ccb475ad170ef8b59550))
+* **deps:** update pnpm/setup action to v3 ([#16](https://github.com/erwanjugand/stylelint-config/issues/16)) ([3a6bf8d](https://github.com/erwanjugand/stylelint-config/commit/3a6bf8d298b1ecd5b5140d5995a1d2acbadf7d15))
+
+### CI/CD
+
+* **ubuntu:** pin version ([7727a0d](https://github.com/erwanjugand/stylelint-config/commit/7727a0d674d63bd57f0717169e5f48a58252ceaf))
+
 ## [2.0.0](https://github.com/erwanjugand/stylelint-config/compare/v1.0.1...v2.0.0) (2026-08-02)
 
 ### ⚠ BREAKING CHANGES
