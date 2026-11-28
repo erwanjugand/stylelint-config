@@ -1,3 +1,21 @@
+## [3.0.0](https://github.com/erwanjugand/stylelint-config/compare/v2.0.1...v3.0.0) (2026-11-28)
+
+### ⚠ BREAKING CHANGES
+
+* drop stylelint 17 support and require node ^22.22.2 || ^24.15.0 || >=26
+
+### Features
+
+* support stylelint 18 ([#22](https://github.com/erwanjugand/stylelint-config/issues/22)) ([e1ca521](https://github.com/erwanjugand/stylelint-config/commit/e1ca521a4c709fdb214520c0f319a04c18f6bce7))
+
+### Chore
+
+* **deps:** lock file maintenance ([#24](https://github.com/erwanjugand/stylelint-config/issues/24)) ([07201e6](https://github.com/erwanjugand/stylelint-config/commit/07201e6ccab39fac65bda1b3ac203ad2b62a89c8))
+* **deps:** update all non-major dependencies ([#23](https://github.com/erwanjugand/stylelint-config/issues/23)) ([b86b5fe](https://github.com/erwanjugand/stylelint-config/commit/b86b5fef1facbd00044299322345f6b02a82f1a5))
+* **deps:** update cycjimmy/semantic-release-action action to v7 ([#19](https://github.com/erwanjugand/stylelint-config/issues/19)) ([6761d59](https://github.com/erwanjugand/stylelint-config/commit/6761d5938535824a6ccf29911dc1e45cad38fffb))
+* **deps:** update cycjimmy/semantic-release-action action to v8 ([#20](https://github.com/erwanjugand/stylelint-config/issues/20)) ([dafc92b](https://github.com/erwanjugand/stylelint-config/commit/dafc92bedb05355e5852d002429b62de3c889109))
+* **deps:** update node.js to v26 ([#21](https://github.com/erwanjugand/stylelint-config/issues/21)) ([a30d52c](https://github.com/erwanjugand/stylelint-config/commit/a30d52c6fcb896d11365041324918a33283bc6b6))
+
 ## [2.0.1](https://github.com/erwanjugand/stylelint-config/compare/v2.0.0...v2.0.1) (2026-10-03)
 
 ### Bug Fixes
