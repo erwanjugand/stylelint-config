@@ -2,7 +2,7 @@
   "name": "@erwanjugand/stylelint-config",
   "packageManager": "pnpm@12.18.0",
   "engines": {
-    "node": "^22.12 || >=24"
+    "node": "^22.22.2 || ^24.15.0 || >=26"
   },
   "version": "2.0.1",
   "author": "Erwan Jugand <erwan.jugand@gmail.com>",
@@ -45,17 +45,17 @@
     "eslint-config-prettier": "10.1.8",
     "jiti": "2.7.0",
     "prettier": "3.9.10",
-    "stylelint": "17.16.0",
+    "stylelint": "18.1.0",
     "typescript": "6.0.3"
   },
   "dependencies": {
-    "postcss-html": "^2.0.0",
-    "stylelint-config-recess-order": "^7.7.0",
-    "stylelint-config-standard-scss": "^17.0.0",
-    "stylelint-order": "^8.1.1",
-    "stylelint-plugin-use-baseline": "^1.4.1"
+    "postcss-html": "^2.0.1",
+    "stylelint-config-recess-order": "^7.10.2",
+    "stylelint-config-standard-scss": "^18.0.0",
+    "stylelint-order": "^9.0.0",
+    "stylelint-plugin-use-baseline": "^1.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^17.0.0"
+    "stylelint": "^18.0.0"
   }
 }
